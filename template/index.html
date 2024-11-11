@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FreshBasket</title>
+  <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a href="#">FreshBasket</a>
+    </div>
+    <ul class="navbar-menu">
+      <li><a href="#vegetables">Vegetables</a></li>
+      <li><a href="#fruits">Fruits</a></li>
+      <li>
+        <a href="cart.html">
+          <img src="cart1.png" alt="Cart" class="cart-icon"> Cart
+        </a>
+      </li>
+    </ul>
+  </nav>
+  
+
+
+  <!-- Main Body -->
+  <main>
+    <!-- Vegetables Section -->
+    <section id="vegetables" class="product-section">
+      <h2>Vegetables</h2>
+      <div class="products">
+        <div class="product-card">
+          <img src="tomato.jpeg" alt="Tomato">
+          <p>Tomato - Rs:70</p>
+
+          <button onclick="addToCart('Tomato')">Add to Cart</button>
+          
+        </div>
+        <div class="product-card">
+          <img src="carrot.jpeg" alt="Carrot">
+          <p>Carrot - Rs:50</p>
+          <button onclick="addToCart('Carrot')">Add to Cart</button>
+          
+        </div>
+        <div class="product-card">
+          <img src="potato.jpeg" alt="Potato">
+          <p>Potato - Rs:60</p>
+          <button onclick="addToCart('Potato')">Add to Cart</button>
+          
+        </div>
+        <div class="product-card">
+          <img src="brocoli.jpeg" alt="Broccoli">
+          <p>Broccoli - Rs:40</p>
+          <button onclick="addToCart('Broccoli')">Add to Cart</button>
+          
+        </div>
+        <div class="product-card">
+          <img src="spinach.jpeg" alt="Spinach">
+          <p>Spinach - Rs:25</p>
+          <button onclick="addToCart('Spinach')">Add to Cart</button>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Fruits Section -->
+    <section id="fruits" class="product-section">
+      <h2>Fruits</h2>
+      <div class="products">
+        <div class="product-card">
+          <img src="apple.jpeg" alt="Apple">
+          <p>Apple - Rs:150</p>
+          <button onclick="addToCart('Apple')">Add to Cart</button>
+          
+        </div>
+        <div class="product-card">
+          <img src="banana.jpeg" alt="Banana">
+          <p>Banana - Rs:50</p>
+          <button onclick="addToCart('Banana')">Add to Cart</button>
+        
+        </div>
+        <div class="product-card">
+          <img src="orange.jpeg" alt="Orange">
+          
+          <p>Orange - Rs:130</p>
+          <button onclick="addToCart('Orange')">Add to Cart</button>
+          
+        </div>
+        <div class="product-card">
+          <img src="strawberry.jpeg" alt="Strawberry">
+          <p>Berry - Rs:350</p>
+          <button onclick="addToCart('Strawberry')">Add to Cart</button>
+   
+        </div>
+        <div class="product-card">
+          <img src="grapes.jpeg" alt="Grapes">
+          <p>Grapes - Rs:150</p>
+          <button onclick="addToCart('Grapes')">Add to Cart</button>
+          
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 FreshBasket. All rights reserved.</p>
+  </footer>
+
+  <script src="../static/js/script.js"></script>
+  <script src="../static/js/cart.js"></script>
+</body>
+</html>
